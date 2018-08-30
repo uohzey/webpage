@@ -1,0 +1,18 @@
+<元素名称 属性1="值一" 属性2="值二"...>元素资料</元素名称>
+文件开始标签<html>
+文件头部标签<head>
+文件标题标签<title>
+文件主体标签<body>
+注释语句<!-- .. --!>
+
+元信息标记<meta>
+设置页面关键字
+<meta name="keyname" content="具体的关键字">
+设置页面描述
+<meta name="description" content="对页面的描述语言">
+<meta name="robots" content="s搜索方式">
+<meta  http-equiv="Content-Languagee" content="zh_CN">
+<meta http-equiv="refresh" content="跳转时间;url=跳转地址">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="pragma" content="no-cache">              <!-- 禁用页面缓存 使用户随时查看到最新内容 --!> 
+<meta head="set-cookie" content="到期的时间">              <!--删除到期的cookie--!>
