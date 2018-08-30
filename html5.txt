@@ -16,3 +16,14 @@
 <meta http-equiv="cache-control" content="no-cache">
 <meta http-equiv="pragma" content="no-cache">              <!-- 禁用页面缓存 使用户随时查看到最新内容 --!> 
 <meta head="set-cookie" content="到期的时间">              <!--删除到期的cookie--!>
+<meta head="windows-target" content="_top">                <!--强制打开新窗口 防止自己的网页被当作一个frame页调用--!>
+<meta http-equiv="过渡事件" content="revealtrans(duration=过渡效果持续时间，transition=过渡方式)">
+<!--设置网页的过渡效果--!>
+<base>基底网址标记
+<base href="H:/webpage/uohzey.html" target="_blank">       <!-- 在新窗口中打开 --!>
+<a href=".../">打开一个相对地址</a>
+<body text="颜色代码">
+<body bgcolor="颜色代码">
+<body link="颜色代码">
+
+
