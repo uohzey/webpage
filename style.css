@@ -1,12 +1,22 @@
 @charset "utf-8";
 /* CSS Document */
 
-h1{
+#headline{
 	color: red;
 	text-align: center;
 	font-size: -2;
 }
-#001{
-	width: 103;
-	font-weight: 102;
+#footer{
+	position:fixed;
+	bottom:0px;
+	right: 700px;
+}
+#git{
+	position:fixed;
+	bottom: 10px;
+	right: 750px;
+}
+#f001{
+	height: 40px;
+	width: 40px;
 }
