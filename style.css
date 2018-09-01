@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1{
+	color: red;
+	text-align: center;
+	font-size: -2;
+}
+#001{
+	width: 103;
+	font-weight: 102;
+}
