@@ -20,3 +20,8 @@
 	height: 40px;
 	width: 40px;
 }
+#subject_timetable{
+	position: fixed;
+	right: 750px;
+	bottom: 0px;
+}
