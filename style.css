@@ -9,7 +9,7 @@ body{
 	height: 100%;
 	background-size: cover;
 }
-.container .head {
+.head {
 	width: 100%;
 	height: 5%;
 	margin:auto;
@@ -39,30 +39,36 @@ body{
 	margin-top: 0px;
 	color: red;
 }
-.container .main{
+.main{
 	height: 70%;
 }
-.container .footer{
-	height: 15%;
-	background-color: black;
+.footer{
+	height: 25%;
+	background: #090A0F;
 	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	border-radius: 20px 20px 0px 0px;
 }
-.footer .footer-center{
-	position:fixed;
-	bottom:0px;
+.footer-left{
+	margin-left: 400px;
+	margin-right: 50px;
+}
+.footer-left,.footer-center,.footer-right{
+	margin: auto;
+	margin-top: 10px;
+	color: white;
+	text-align: center;
+}
+.github{
+	border-radius: 40px;
+}
+.footer-right{
+	margin-left: 50px;
+	margin-right: 400px;
+}
+.footer-center .banquan{
+	margin: auto;
 	right: 700px;
-}
-.footer .git{
-	position:fixed;
-	bottom: 10px;
-	right: 750px;
-}
-#f001{
-	height: 40px;
-	width: 40px;
-}
-#subject_timetable{
-	position: fixed;
-	right: 750px;
-	bottom: 0px;
+	color: white;
 }
