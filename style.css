@@ -115,7 +115,6 @@ body{
 	float: none;
 	display: none;
 }
-
 a {
 	text-decoration: none;
 	text-align: center;
@@ -125,17 +124,43 @@ a {
 	display: block;
 
 }
-
 ul li a:hover {
 
 	background-color: #0CC;
 
 }
-
 ul li ul li a:hover {
 
 	background-color: #0CC;
 
+}
+.main-content{
+	margin-top: 20px;
+	width:800px;
+	height: 82%;
+	display: flex;
+	flex-direction: row;
+}
+.main-content .main-content-left{
+	width:35%;
+	height: 50%;
+	margin-right: 20px;
+	border-radius: 10px;
+}
+.main-content-left .left-top{
+	height: 22%;
+	width: 100%;
+	margin-bottom: 20px;
+	
+}
+.left-top .person-info{
+	display: flex;
+	flex-direction: row;
+}
+.main-content .main-content-right{
+	width:65%;
+	height: 100%;
+	border-radius: 10px;
 }
 .footer{
 	height: 25%;
