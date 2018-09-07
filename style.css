@@ -151,11 +151,22 @@ ul li ul li a:hover {
 	height: 22%;
 	width: 100%;
 	margin-bottom: 20px;
-	
+	border: solid 2px gray;
+	border-radius: 10px;
 }
 .left-top .person-info{
 	display: flex;
 	flex-direction: row;
+}
+.person-info .person-info-left{
+	width: 70px;
+	margin-left: 13px;
+	font-size: 15px;
+	color: black;
+}
+.person-info .person-info-right{
+	font-size: 15px;
+	color: black;
 }
 .main-content .main-content-right{
 	width:65%;
